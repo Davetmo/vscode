@@ -52,14 +52,15 @@ Next: **[Try it out!](#try-it)**
 
 You may see improved VNC responsiveness when accessing a codespace from VS Code client since you can use a [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/). Here's how to do it.
 
-1.  Install [Visual Studio Code Stable](https://code.visualstudio.com/) or [Insiders](https://code.visualstudio.com/insiders/) and the the [GitHub Codespaces extension](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces).
+1. Install [Visual Studio Code Stable](https://code.visualstudio.com/) or [Insiders](https://code.visualstudio.com/insiders/) and the the [GitHub Codespaces extension](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces).
 
-	> **Note:** The GitHub Codespaces extension requires the Visual Studio Code distribution of Code - OSS.
+ > **Note:** The GitHub Codespaces extension requires the Visual Studio Code distribution of Code - OSS.
 
 2. After the VS Code is up and running, press <kbd>Ctrl/Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or <kbd>F1</kbd>, choose **Codespaces: Create New Codespace**, and use the following settings:
     - `microsoft/vscode` for the repository.
-	- Select any branch (e.g. **main**) - you can select a different one later.
-	- Choose **Standard** (4-core, 8GB) as the size.
+
+- Select any branch (e.g. **main**) - you can select a different one later.
+- Choose **Standard** (4-core, 8GB) as the size.
 
 4. After you have connected to the codespace, you can use a [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) to connect to `localhost:5901` and enter `vscode` as the password.
 
@@ -69,7 +70,7 @@ You may see improved VNC responsiveness when accessing a codespace from VS Code 
 
 Next: **[Try it out!](#try-it)**
 
-## Try it!
+## Try it
 
 This container uses the [Fluxbox](http://fluxbox.org/) window manager to keep things lean. **Right-click on the desktop** to see menu options. It works with GNOME and GTK applications, so other tools can be installed if needed.
 
